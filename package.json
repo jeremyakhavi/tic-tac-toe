@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "tic-tac-toe-react",
   "version": "0.1.0",
+  "homepage": "https://jeremyakhavi.github.io/tic-tac-toe/",
   "private": true,
-  "homepage":"http://jeremyakhavi.github.io/tic-tac-toe",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "hg-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
